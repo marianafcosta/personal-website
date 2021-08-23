@@ -78,5 +78,5 @@ paginate = 5
         url = "https://github.com/marianafcosta"
       [[languages.en.menu.main]]
         identifier = "linkedin"
-        name = "Linkedin"
+        name = "LinkedIn"
         url = "https://www.linkedin.com/in/marianafcosta/"

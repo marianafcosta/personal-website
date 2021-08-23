@@ -1,0 +1,25 @@
+.experience-title, .project-title {
+    margin-bottom: 0;
+}
+
+.tag {
+    display: inline-block;
+    padding: 0 4px;
+    color: var(--alt-color);
+    background-color: var(--accent);
+    border-radius: 4px;
+}
+
+.headings--one-size h2.title-div-text {
+    border-left: 4px solid var(--accent);
+    padding-left: 8px;
+    display: inline-block;
+    margin: 0;
+}
+
+.link-icon {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    color: var(--accent);
+}
