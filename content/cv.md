@@ -5,11 +5,35 @@ date: "2021-07-14"
 
 {{< title title="Experience">}}
 
-{{< experience title="President" location="NECGM" startDate="09/2020" endDate="02/2021" description="hi" >}}
-{{< experience title="Organizer" location="Talk a Bit '21" startDate="09/2020" endDate="02/2021" description="hi" >}}
-{{< experience title="Organizer" location="Global Game Jam @FEUP '19-'20" startDate="10/2018" endDate="01/2020" description="hi" >}}
-{{< experience title="Organizer" location="Game Dev Meet @Porto" startDate="10/2018" endDate="03/2020" description="hi" >}}
-{{< experience title="Volunteer" location="Universidade Júnior" startDate="09/2020" endDate="02/2021" description="hi" >}}
+{{< experience title="President" location="NECGM" startDate="09/2020" endDate="02/2021" >}}
+
+hi
+
+{{< experience title="Organizer" location="Talk a Bit '21" startDate="09/2020" endDate="02/2021" >}}
+
+hi
+
+{{< experience title="Organizer" location="Global Game Jam @FEUP '19-'20" startDate="10/2018" endDate="01/2020" >}}
+
+hi
+
+{{< experience title="Organizer" location="Game Dev Meet @Porto" startDate="10/2018" endDate="03/2020" >}}
+
+hi
+
+{{< experience title="Volunteer" location="Universidade Júnior" startDate="09/2020" endDate="02/2021" >}}
+
+hi
+
+{{< experience title="Volunteer" location="Universidade Júnior" startDate="09/2020" endDate="02/2021" >}}
+
+hi
+
+{{< title title="Education">}}
+
+{{< experience title="BSc + MSc in Computer Engineering and Informatics" location="FEUP" startDate="09/2016" endDate="07/2021" >}}
+
+Finished my BSc + Msc with a grade of 17 out of 20. You can check out my **dissertation**, "Narrative Visualization of News Stories", below.
 
 {{< title title="Projects">}}
 
@@ -33,7 +57,7 @@ Re-implementation of an online platform targeting on the management of menus in 
 
 {{< project title="360 Company Dashboard" link="hi" >}}
 
-A web application which provides an overview of a company’s operations and financial situation through a number of key performance indicators. The integration with **Primavera's ERP** and the correct interpretation of **SAF-T** proved to be challenging, as none of the team members had prior experience with financial applications. 
+A web application which provides an overview of a company’s operations and financial situation through a number of key performance indicators. The integration with **Primavera's ERP** and the correct interpretation of **SAF-T** files proved to be challenging, as none of the team members had prior experience with financial applications. 
 
 {{< tags "React,MaterialUI,NodeJS,Heroku" >}}
 
