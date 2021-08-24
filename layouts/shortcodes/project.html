@@ -1,9 +1,2 @@
-<div>
-    <a href="{{ .Get "link" }}" target="_blank" rel="noopener"><h3 class="project-title">{{ .Get "title" }}</h3></a>
-    <p>{{ .Get "description" }}</p>
-    {{ $array := split (.Get "tech") "," }}
-    {{ range $array }}
-        <div class="tag">{{ . }}</div>
-    {{ end }}
-</div>
+<a href="{{ .Get "link" }}" target="_blank" rel="noopener"><h3 class="project-title">{{ .Get "title" }}</h3></a>
     

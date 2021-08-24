@@ -1,0 +1,6 @@
+<div class="tags">
+    {{ $array := split (index .Params 0) "," }}
+    {{ range $array }}
+            <div class="tag">{{ . }}</div>
+    {{ end }}
+</div>
