@@ -1,6 +1,1 @@
-{{ $class := "title-div-text"}}
-{{ if isset .Params 1 }}
-    {{ $class = "title-div-text-first" }}
-{{ end }}
-
-<h2 class="{{ $class }}">{{ index .Params 0 }}</h2>
+<h2 class="title-div-text">{{ index .Params 0 }}</h2>

@@ -1,4 +1,4 @@
-<a href="{{ .Get "link" }}" target="_blank" rel="noopener"><h3 class="project-title">{{ .Get "title" }}</h3></a>
+<h3 class="project-title"><a href="{{ .Get "link" }}" target="_blank" rel="noopener">{{ .Get "title" }}</a>{{if isset .Params "course"}} ({{ .Get "course" }} @ FEUP{{end}})</h3>
 <div class="num-people-in-project">
     {{ partial "icon" "user" }}
     <p>{{ .Get "people" }}</p>

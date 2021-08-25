@@ -28,7 +28,7 @@ paginate = 5
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
+  # showLastUpdated = true
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
   # updatedDatePrefix = "Updated"
 
@@ -65,13 +65,17 @@ paginate = 5
 
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/"
+      [[languages.en.menu.main]]
         identifier = "cv"
         name = "CV"
         url = "/cv"
       [[languages.en.menu.main]]
-        identifier = "cv-pdf"
-        name = "CV (PDF)"
-        url = "/cv.md"
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
       [[languages.en.menu.main]]
         identifier = "github"
         name = "GitHub"
