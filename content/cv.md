@@ -5,29 +5,29 @@ date: "2021-07-14"
 
 {{< title "📄 Experience" true>}}
 
-{{< experience title="President" location="NECGM" startDate="08/2019" endDate="08/2020" >}}
+{{< experience title="President" location="NECGM" startDate="08/2019" endDate="08/2020" link="https://www.facebook.com/search/top?q=necgm%20-%20feup">}}
 
 Joined the Computer Graphics and Multimedia Student Group in 2018, where I later took on the role of **president**. I **planned and oversaw** the group's activities, took part in the **organisation of numerous events** related to the game development scene in Porto and workshops that revolved around this topic (e.g. Blender and Godot), and frequently established contact with entities such as other student groups, FEUP's internal organization, and companies.
 
-{{< experience title="Organizer" location="Talk a Bit '21" startDate="09/2020" endDate="02/2021" >}}
+{{< experience title="Organizer" location="Talk a Bit '21" startDate="09/2020" endDate="02/2021" link="https://talkabit.org/about">}}
 
 Part of the conference department for the **first online edition of Talk a Bit**, a student-organized conference centered around tech and its impact on society. Within our **30-member team**, our role as the conference department was to **oversee and facilitate** the activities of other departments, provide feedback, and offer help whenever necessary. 
 
-{{< experience title="Organizer" location="Global Game Jam (FEUP)" startDate="10/2018" endDate="01/2020" >}}
+{{< experience title="Organizer" location="Global Game Jam (FEUP)" startDate="10/2018" endDate="01/2020" link="https://globalgamejam.org/2019/jam-sites/ggjfeup-necgm">}}
 
 Global Game Jam is a worldwide, 48-hour, **game development focused hackathon**. I took part in the organization of the FEUP jamsite in 2019 and 2020, having worked mostly on **logistics** and **external relations**.
 
-{{< experience title="Organizer" location="Game Dev Meet (Porto)" startDate="10/2018" endDate="03/2020" >}}
+{{< experience title="Organizer" location="Game Dev Meet (Porto)" startDate="10/2018" endDate="03/2020" link="https://www.facebook.com/profile.php?id=100054647850308&sk=events">}}
 
 Monthly meets aimed at celebrating and **showcasing** the work of **local game developers and artists**. Responsible for the **logistics** and **external relations**. Frequently the events' photographer as well.
 
-{{< experience title="Volunteer" location="Universidade Júnior" startDate="09/2020" endDate="02/2021" >}}
+{{< experience title="Volunteer" location="Universidade Júnior" startDate="09/2020" endDate="02/2021" link="https://universidadejunior.up.pt/atividades.php?a=modelacao-tridimensional-de-objetos">}}
 
 Responsible for teaching a **3D modelling workshop** in SketchUp to 7-8th grade students as part of the activities offered by Universidade Júnior.
 
 {{< title "🎓 Education">}}
 
-{{< experience title="BSc + MSc in Computer Engineering and Informatics" location="FEUP" startDate="09/2016" endDate="07/2021" >}}
+{{< experience title="BSc + MSc in Computer Engineering and Informatics" location="FEUP" startDate="09/2016" endDate="07/2021" link="https://sigarra.up.pt/feup/pt/cur_geral.cur_view?pv_curso_id=742&pv_origem=CUR&pv_ano_lectivo=2020">}}
 
 Finished my BSc + Msc with a grade of 17 out of 20. You can check out my **dissertation**, "Narrative Visualization of News Stories", below.
 
