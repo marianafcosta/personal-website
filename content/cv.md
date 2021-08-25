@@ -3,7 +3,7 @@ title: "CV"
 date: "2021-07-14"
 ---
 
-{{< title title="Experience">}}
+{{< title "📄 Experience" true>}}
 
 {{< experience title="President" location="NECGM" startDate="08/2019" endDate="08/2020" >}}
 
@@ -25,13 +25,13 @@ Monthly meets aimed at celebrating and **showcasing** the work of **local game d
 
 Responsible for teaching a **3D modelling workshop** in SketchUp to 7-8th grade students as part of the activities offered by Universidade Júnior.
 
-{{< title title="Education">}}
+{{< title "🎓 Education">}}
 
 {{< experience title="BSc + MSc in Computer Engineering and Informatics" location="FEUP" startDate="09/2016" endDate="07/2021" >}}
 
 Finished my BSc + Msc with a grade of 17 out of 20. You can check out my **dissertation**, "Narrative Visualization of News Stories", below.
 
-{{< title title="(Some) Projects">}}
+{{< title "💻 (Some) Projects">}}
 
 {{< project title="NewsLines" link="https://marianafcosta.github.io/news-story-viz/" people="1" >}}
 
@@ -69,12 +69,16 @@ A social network for sharing user-generated stories, with a focus on music. Buil
 
 {{< tags "Javascript,HTML/CSS,PHP,SQLite" >}}
 
-{{< title title="Skills" >}}
+{{< title "🔧 Skills" >}}
 
-{{< tags "Javascript,Node.js,React,D3,HTML/CSS,Python,Java,C,C++,Git,Linux,SQL" >}}
+{{< tags "Javascript,Node.js,React,D3,HTML/CSS,Python,Java,C,C++,Git,Linux,SQL" true>}}
 
-{{< title title="Languages">}}
+{{< title "🗣 Languages">}}
 
-* **English**: Full Professional Proficiency
-* **Portuguese**: Native or Bilingual Proficiency
+{{< raw-html >}}
+<ul class="lang-list">
+    <li><strong>English</strong>: Full Professional Proficiency</li>
+    <li><strong>Portuguese</strong>: Native or Bilingual Proficiency</li>
+</ul>
+{{< /raw-html >}}
 
