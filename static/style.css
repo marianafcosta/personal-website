@@ -18,13 +18,32 @@
     margin: 40px 0 0 0;
 }
 
-.link-icon {
+svg.text-icon {
     display: inline-block;
     height: 16px;
     width: 16px;
     color: var(--accent);
+    align-items: center;
 }
 
 div.tags {
     margin: 1em 0;
+}
+
+div.num-people-in-project {
+    margin: 8px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+
+div.num-people-in-project > * {
+    color: var(--accent);
+}
+
+div.num-people-in-project > svg {
+    fill: var(--accent);
+}
+
+div.num-people-in-project > p {
+    margin: 0 0 0 6px;
 }

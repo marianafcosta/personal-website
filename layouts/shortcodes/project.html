@@ -1,2 +1,6 @@
 <a href="{{ .Get "link" }}" target="_blank" rel="noopener"><h3 class="project-title">{{ .Get "title" }}</h3></a>
+<div class="num-people-in-project">
+    {{ partial "icon" "user" }}
+    <p>{{ .Get "people" }}</p>
+</div>
     

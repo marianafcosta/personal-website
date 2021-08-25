@@ -4,5 +4,5 @@
 {{ $class := print $svg "-icon" }}
 {{ $match := "<svg (.*)?>(.*)</svg>" }}
 
-{{ $replaceWith := printf `<svg class="%s" ${1}>${2}</svg>` $class }}
+{{ $replaceWith := printf `<svg class="text-icon" ${1}>${2}</svg>` }}
 {{ return (replaceRE $match $replaceWith (printf "/static/%s.svg" $svg | readFile) | safeHTML) }}
