@@ -45,13 +45,13 @@ Part of my dissertation, "Narrative Visualization of News Stories". A visualizat
 
 A web interface for real-time sports commentary. The application was developed for **zerozero**, one of the biggest sport-centric websites in Portugal, in a **multidisciplinary team** with distinct backgrounds (namely computer engineering, multimedia, and marketing) following a **Scrum-like methodology**. Making sure the user could still use the application when offline was one of the main technical challenges, tackled with the use of **redux-offline**, **Service Workers**, and **localStorage**.
 
-{{< tags "React,Redux,Redux Offline,Heroku" >}}
+{{< tags "React,Redux,Redux Offline,React Testing Library,Heroku,Node.js" >}}
 
 {{< project title="Sistema de Planeamento e Avaliação de Refeições Escolares" link="https://docs.google.com/presentation/d/1-_prkbUan8UbemqS8N-9J5PiORYADZ06Zrz6dj29nXY/edit#slide=id.p" people="8" course="LDSO">}}
 
 Re-implementation of an online platform targeting on the management of menus in school cafeterias. As **team leader** of an 8-member team, I was tasked with contributing to the **development** of the application, **managing** the team's activities, and ensuring a stable communication channel between us and the product owners. It was a great opportunity to sharpen my skills in **full-stack** development.
 
-{{< tags "Laravel,React,Redux,PostgreSQL" >}}
+{{< tags "React,Redux,Laravel,PHPUnit,PostgreSQL,Docker,Heroku" >}}
 
 {{< project title="360 Company Dashboard" link="https://sinf-eec.herokuapp.com/login" people="4" course="SINF">}}
 
@@ -73,7 +73,7 @@ A social network for sharing user-generated stories, with a focus on music. Buil
 
 {{< title "🔧 Skills" >}}
 
-{{< tags "Javascript,Node.js,React,D3,HTML/CSS,Python,Java,C,C++,Git,Linux,SQL" true>}}
+{{< tags "Javascript,HTML/CSS,Python,Java,C,C++,SQL,PHP,Git,Bash,Docker,Heroku,Node.js,React,Redux,Bootstrap,Node.js,Laravel,Hugo,Agile,Scrum" true>}}
 
 {{< title "🗣 Languages">}}
 
