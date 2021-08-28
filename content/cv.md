@@ -84,3 +84,6 @@ A social network for sharing user-generated stories, with a focus on music. Buil
 </ul>
 {{< /raw-html >}}
 
+---
+
+User icon made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com/)

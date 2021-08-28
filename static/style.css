@@ -5,7 +5,7 @@
 .tag {
     display: inline-block;
     padding: 0 4px;
-    color: var(--alt-color);
+    color: black !important;
     background-color: var(--accent);
     border-radius: 4px;
     margin: 4px 0;
