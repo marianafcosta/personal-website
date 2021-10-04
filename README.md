@@ -1,3 +1,3 @@
 # Personal
 
-My [personal website](marianacosta.xyz), built in [??]().
+My [personal website](marianacosta.xyz), built with [Svelte](https://svelte.dev/).
