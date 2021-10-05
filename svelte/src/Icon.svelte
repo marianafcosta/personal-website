@@ -1,4 +1,3 @@
-<!-- LinkedIn: https://fontawesome.com/v5.15/icons/linkedin-in?style=brands -->
 <script>
     export let name;
     export let width = "1rem";
@@ -28,14 +27,13 @@
 <!-- Icon credit -->
 <!-- User: https://fontawesome.com/v5.15/icons/user?style=regular -->
 <!-- Github: https://fontawesome.com/v5.15/icons/github-alt?style=brands -->
-
+<!-- LinkedIn: https://fontawesome.com/v5.15/icons/linkedin-in?style=brands -->
 
 <svg
     class={$$props.class}
     {focusable}
     {width}
     {height}
-    viewBox="0 0 {displayIcon.box} {displayIcon.box}"
->
+    viewBox="0 0 {displayIcon.box} {displayIcon.box}">
     {@html displayIcon.svg}
 </svg>
