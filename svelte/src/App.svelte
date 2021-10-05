@@ -1,6 +1,51 @@
 <script>
     import ProjectCard from "./ProjectCard.svelte";
     import Icon from "./Icon.svelte";
+
+    let projects = [
+        {
+            title: "NewsLines",
+            location: "Dissertation @ FEUP",
+            link: "https://marianafcosta.github.io/news-story-viz/",
+            teamSize: "1",
+            tags: ["Javascript", "HTML", "CSS", "D3", "User Research"],
+            description:
+                "Part of my dissertation, “Narrative Visualization of News Stories”. A visualization interface aimed at showcasing narratives (particularly those in news stories) through storylines. The prototype was built using vanilla JS and HTML/CSS, with D3 as the visualization engine. This project allowed me to familiarize myself with D3, as well as to explore various user research methods, such as interviews, user tests, and surveys.",
+        },
+        {
+            title: "Real-time sports commentary",
+            location: "LGPR @ FEUP",
+            link: "https://www.youtube.com/watch?v=GFKW-izwFPI&feature=youtu.be",
+            teamSize: "8",
+            tags: [
+                "React",
+                "Redux",
+                "Redux Offline",
+                "React Testing Library",
+                "Heroku",
+                "PHP",
+            ],
+            description:
+                "A web interface for real-time sports commentary. The application was developed for zerozero, one of the biggest sport-centric websites in Portugal, in a multidisciplinary team with distinct backgrounds (namely computer engineering, multimedia, and marketing) following a Scrum-like methodology. Making sure the user could still use the application when offline was one of the main technical challenges, tackled with the use of redux-offline, Service Workers, and localStorage.",
+        },
+        {
+            title: "Sistema de Planeamento e Avaliação de Refeições Escolares",
+            location: "LDSO @ FEUP",
+            link: "https://docs.google.com/presentation/d/1-_prkbUan8UbemqS8N-9J5PiORYADZ06Zrz6dj29nXY/edit#slide=id.p",
+            teamSize: "8",
+            tags: [
+                "React",
+                "Redux",
+                "Laravel",
+                "PHPUnit",
+                "PostgreSQL",
+                "Docker",
+                "Heroku",
+            ],
+            description:
+                "Re-implementation of an online platform targeting on the management of menus in school cafeterias. As team leader of an 8-member team, I was tasked with contributing to the development of the application, managing the team’s activities, and ensuring a stable communication channel between us and the product owners. It was a great opportunity to sharpen my skills in full-stack development.",
+        },
+    ];
 </script>
 
 <main>
@@ -36,45 +81,16 @@
     <div>
         <h2 class="content-title">Projects</h2>
         <div class="project-container">
-            <ProjectCard
-                title="NewsLines"
-                location="Dissertation @ FEUP"
-                link="https://marianafcosta.github.io/news-story-viz/"
-                teamSize="1"
-                tags={["Javascript", "HTML", "CSS", "D3", "User Research"]}
-                description="Part of my dissertation, “Narrative Visualization of News Stories”. A visualization interface aimed at showcasing narratives (particularly those in news stories) through storylines. The prototype was built using vanilla JS and HTML/CSS, with D3 as the visualization engine. This project allowed me to familiarize myself with D3, as well as to explore various user research methods, such as interviews, user tests, and surveys."
-            />
-            <ProjectCard
-                title="Real-time sports commentary"
-                location="LGPR @ FEUP"
-                link="https://www.youtube.com/watch?v=GFKW-izwFPI&feature=youtu.be"
-                teamSize="8"
-                tags={[
-                    "React",
-                    "Redux",
-                    "Redux Offline",
-                    "React Testing Library",
-                    "Heroku",
-                    "PHP",
-                ]}
-                description="A web interface for real-time sports commentary. The application was developed for zerozero, one of the biggest sport-centric websites in Portugal, in a multidisciplinary team with distinct backgrounds (namely computer engineering, multimedia, and marketing) following a Scrum-like methodology. Making sure the user could still use the application when offline was one of the main technical challenges, tackled with the use of redux-offline, Service Workers, and localStorage."
-            />
-            <ProjectCard
-                title="Sistema de Planeamento e Avaliação de Refeições Escolares"
-                location="LDSO @ FEUP"
-                link="https://docs.google.com/presentation/d/1-_prkbUan8UbemqS8N-9J5PiORYADZ06Zrz6dj29nXY/edit#slide=id.p"
-                teamSize="8"
-                tags={[
-                    "React",
-                    "Redux",
-                    "Laravel",
-                    "PHPUnit",
-                    "PostgreSQL",
-                    "Docker",
-                    "Heroku",
-                ]}
-                description="A web interface for real-time sports commentary. The application was developed for zerozero, one of the biggest sport-centric websites in Portugal, in a multidisciplinary team with distinct backgrounds (namely computer engineering, multimedia, and marketing) following a Scrum-like methodology. Making sure the user could still use the application when offline was one of the main technical challenges, tackled with the use of redux-offline, Service Workers, and localStorage."
-            />
+            {#each projects as { title, location, link, teamSize, tags, description }}
+                <ProjectCard
+                    {title}
+                    {location}
+                    {link}
+                    {teamSize}
+                    {tags}
+                    {description}
+                />
+            {/each}
         </div>
     </div>
     <footer>
