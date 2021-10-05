@@ -10,7 +10,7 @@
             teamSize: "1",
             tags: ["Javascript", "HTML", "CSS", "D3", "User Research"],
             description:
-                "Part of my dissertation, “Narrative Visualization of News Stories”. A visualization interface aimed at showcasing narratives (particularly those in news stories) through storylines. The prototype was built using vanilla JS and HTML/CSS, with D3 as the visualization engine. This project allowed me to familiarize myself with D3, as well as to explore various user research methods, such as interviews, user tests, and surveys.",
+                "A visualization interface aimed at showcasing narratives (particularly those in news stories) through storylines.",
         },
         {
             title: "Real-time sports commentary",
@@ -26,7 +26,7 @@
                 "PHP",
             ],
             description:
-                "A web interface for real-time sports commentary. The application was developed for zerozero, one of the biggest sport-centric websites in Portugal, in a multidisciplinary team with distinct backgrounds (namely computer engineering, multimedia, and marketing) following a Scrum-like methodology. Making sure the user could still use the application when offline was one of the main technical challenges, tackled with the use of redux-offline, Service Workers, and localStorage.",
+                "Web interface for real-time sports commentary. The application was developed for zerozero, one of the biggest sport-centric websites in Portugal.",
         },
         {
             title: "Sistema de Planeamento e Avaliação de Refeições Escolares",
@@ -43,7 +43,34 @@
                 "Heroku",
             ],
             description:
-                "Re-implementation of an online platform targeting on the management of menus in school cafeterias. As team leader of an 8-member team, I was tasked with contributing to the development of the application, managing the team’s activities, and ensuring a stable communication channel between us and the product owners. It was a great opportunity to sharpen my skills in full-stack development.",
+                "Re-implementation of an online platform targeting the management of menus in school cafeterias",
+        },
+        {
+            title: "360 Company Dashboard",
+            location: "SINF @ FEUP",
+            link: "https://sinf-eec.herokuapp.com/login",
+            teamSize: "4",
+            tags: ["React", "MaterialUI", "Node.js", "Heroku", "PrimaveraERP"],
+            description:
+                "Web application which provides an overview of a company’s operations and financial situation through a number of key performance indicators.",
+        },
+        {
+            title: "Neutreeko",
+            location: "LAIG @ FEUP",
+            link: "https://www.youtube.com/watch?v=VnWfriKRadA",
+            teamSize: "2",
+            tags: ["Javascript", "WebGL", "Prolog"],
+            description:
+                "Web-based graphical interface for a game developed in Prolog.",
+        },
+        {
+            title: "Mel-o",
+            location: "LTW @ FEUP",
+            link: "https://paginas.fe.up.pt/~up201503730/pages/mainpage.php",
+            teamSize: "3",
+            tags: ["Javascript", "HTML", "CSS", "SQLite"],
+            description:
+                "A social network for sharing user-generated stories, with a focus on music.",
         },
     ];
 </script>
