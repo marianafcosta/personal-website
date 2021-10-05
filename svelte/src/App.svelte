@@ -1,7 +1,6 @@
 <script>
     import ProjectCard from "./ProjectCard.svelte";
-
-    let currYear = new Date().getFullYear();
+    import Icon from "./Icon.svelte";
 </script>
 
 <main>
@@ -79,9 +78,12 @@
         </div>
     </div>
     <footer>
-        <p>&copy {currYear} Mariana Costa |</p>
-        <a href="https://github.com/marianafcosta">GitHub</a>
-        <a href="https://www.linkedin.com/in/marianafcosta/">LinkedIn</a>
+        <p>&copy {new Date().getFullYear()} Mariana Costa</p>
+        <p>|</p>
+        <a href="https://github.com/marianafcosta"><Icon name="github" /></a>
+        <a href="https://www.linkedin.com/in/marianafcosta/"
+            ><Icon name="linkedin" /></a
+        >
     </footer>
 </main>
 
@@ -99,11 +101,19 @@
     }
     footer {
         margin-top: 32px;
-        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
     footer > * {
-        font-size: 100;
-        display: inline-block;
+        font-weight: 100;
+    }
+    footer > :not(:first-child) {
+        margin-left: 4px;
+    }
+    footer > a {
+        display: flex;
     }
     .header-title {
         margin: 0;
