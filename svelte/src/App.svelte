@@ -79,20 +79,20 @@
     <header>
         <h2 class="header-title">Mariana Costa</h2>
         <nav>
-            <a href="https://github.com/marianafcosta">GitHub</a>
-            <a href="https://www.linkedin.com/in/marianafcosta/">LinkedIn</a>
             <a
                 href="https://drive.google.com/file/d/1_PPB1LLOHgxDvCT9A6aIt2Q9o7y-ykvg/view?usp=sharing"
-                >CV</a
-            >
+                >CV</a>
+            <a href="https://github.com/marianafcosta">GitHub</a>
+            <a href="https://www.linkedin.com/in/marianafcosta/">LinkedIn</a>
         </nav>
     </header>
     <hr />
     <div class="intro">
         <ul class="intro-list">
             <li>
-                Hi! I’m Mariana Costa, a recent graduate from FEUP’s BSc + MSc
-                in Informatics and Computer Engineering.
+                Hi! I’m Mariana Costa, a recent graduate from <a
+                    href="https://sigarra.up.pt/feup/pt/cur_geral.cur_view?pv_curso_id=742"
+                    >FEUP’s BSc + MSc in Informatics and Computer Engineering.</a>
             </li>
             <li>
                 Most familiar with web development, but keen on exploring other
@@ -115,8 +115,7 @@
                     {link}
                     {teamSize}
                     {tags}
-                    {description}
-                />
+                    {description} />
             {/each}
         </div>
     </div>
@@ -125,8 +124,7 @@
         <p>|</p>
         <a href="https://github.com/marianafcosta"><Icon name="github" /></a>
         <a href="https://www.linkedin.com/in/marianafcosta/"
-            ><Icon name="linkedin" /></a
-        >
+            ><Icon name="linkedin" /></a>
     </footer>
 </main>
 
@@ -163,6 +161,7 @@
     }
     .intro {
         margin-top: 32px;
+        border-radius: 2px;
         box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
         padding: 16px;
     }

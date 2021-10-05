@@ -22,6 +22,7 @@
         margin: 0;
     }
     .project-card {
+        border-radius: 2px;
         box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
         padding: 16px;
     }
@@ -45,6 +46,7 @@
         flex-wrap: wrap;
     }
     .tag {
+        border-radius: 2px;
         padding: 4px;
         margin-right: 4px;
         margin-top: 4px;
