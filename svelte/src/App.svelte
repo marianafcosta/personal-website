@@ -161,11 +161,6 @@
     .header-title {
         margin: 0;
     }
-    .header-title,
-    .content-title {
-        color: #ff3e00;
-        font-weight: 100;
-    }
     .intro {
         margin-top: 32px;
         box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);

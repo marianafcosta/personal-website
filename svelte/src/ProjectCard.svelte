@@ -48,6 +48,6 @@
         padding: 4px;
         margin-right: 4px;
         margin-top: 4px;
-        background-color: orangered;
+        background-color: var(--tag-color);
     }
 </style>
