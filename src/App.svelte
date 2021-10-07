@@ -73,17 +73,26 @@
                 "A social network for sharing user-generated stories, with a focus on music.",
         },
     ];
+
+    let burger = false;
 </script>
 
 <main>
     <header>
         <h2 class="header-title">Mariana Costa</h2>
         <nav>
-            <a
-                href="https://drive.google.com/file/d/1_PPB1LLOHgxDvCT9A6aIt2Q9o7y-ykvg/view?usp=sharing"
-                >CV</a>
-            <a href="https://github.com/marianafcosta">GitHub</a>
-            <a href="https://www.linkedin.com/in/marianafcosta/">LinkedIn</a>
+            <button
+                class="burger"
+                type="button"
+                on:click={() => (burger = !burger)} />
+            <div class:hidden={!burger} class:visible={burger}>
+                <a
+                    href="https://drive.google.com/file/d/1_PPB1LLOHgxDvCT9A6aIt2Q9o7y-ykvg/view?usp=sharing"
+                    >CV</a>
+                <a href="https://github.com/marianafcosta">GitHub</a>
+                <a href="https://www.linkedin.com/in/marianafcosta/"
+                    >LinkedIn</a>
+            </div>
         </nav>
     </header>
     <hr />
@@ -135,6 +144,14 @@
         justify-content: space-between;
         align-items: center;
     }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav > div > a:not(:first-child) {
+        margin-left: 8px;
+    }
     main {
         padding: 1em;
         max-width: 800px;
@@ -173,9 +190,53 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
     }
+    .burger {
+        background-image: url(../bars-solid.svg);
+        width: 24px;
+        height: 24px;
+        background-size: 24px 24px;
+        border: 0px;
+        background-color: transparent;
+        cursor: pointer;
+        display: none;
+    }
     @media (max-width: 640px) {
+        .hidden {
+            display: none;
+        }
+        .visible {
+            display: initial;
+        }
         .project-container {
             grid-template-columns: repeat(1, 1fr);
+        }
+        nav {
+            position: relative;
+            width: 32px;
+            height: 32px;
+        }
+        nav > button {
+            margin: 0;
+        }
+        nav > div {
+            cursor: default;
+            position: absolute;
+            top: calc(40px);
+            right: 0px;
+            background-color: white;
+            box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+            padding: 16px;
+            display: none;
+        }
+        nav > div > a {
+            display: block;
+        }
+        nav > div > a:not(:first-child) {
+            margin-top: 16px;
+            margin-left: 0;
+        }
+        .burger {
+            display: initial;
         }
     }
 </style>
