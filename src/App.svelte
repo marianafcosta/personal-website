@@ -223,7 +223,7 @@
             position: absolute;
             top: calc(40px);
             right: 0px;
-            background-color: white;
+            background-color: var(--bg-color);
             box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
             padding: 16px;
             display: none;
