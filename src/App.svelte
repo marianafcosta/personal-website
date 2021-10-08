@@ -131,9 +131,10 @@
     <footer>
         <p>&copy {new Date().getFullYear()} Mariana Costa</p>
         <p>|</p>
-        <a href="https://github.com/marianafcosta"><Icon name="github" /></a>
+        <a href="https://github.com/marianafcosta"
+            ><Icon width={24} height={24} name="github" /></a>
         <a href="https://www.linkedin.com/in/marianafcosta/"
-            ><Icon name="linkedin" /></a>
+            ><Icon width={24} height={24} name="linkedin" /></a>
     </footer>
 </main>
 
