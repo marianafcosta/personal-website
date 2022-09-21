@@ -100,18 +100,18 @@
   <div class="intro">
     <ul class="intro-list">
       <li>
-        Hi! I’m Mariana Costa, a recent graduate from <a
-          href="https://sigarra.up.pt/feup/pt/cur_geral.cur_view?pv_curso_id=742"
-          >FEUP’s BSc + MSc in Informatics and Computer Engineering.</a
+        Hi! I’m Mariana Costa, a Software Developer at <a
+          href="https://hybridheroes.de">Hybrid Heroes</a
         >
       </li>
       <li>
-        Most familiar with web development, but keen on exploring other areas of
-        software engineering, such as software development.
+        Most familiar with web and mobile development, but above all interested
+        in working on products with real-life application and creating solutions
+        with the end-user in mind.
       </li>
       <li>
         In my free time, I usually cycle between playing my Switch (currently
-        struggling at Slay the Spire), reading, and scouring cafés in the city.
+        struggling at Cuphead), reading, and scouring for cafés in the city.
       </li>
     </ul>
   </div>
